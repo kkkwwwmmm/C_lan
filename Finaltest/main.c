@@ -457,11 +457,11 @@ int howto()
 		{
 			screen[i] = '?';
 		}
-		else if (i >= 1569 && i <= 1611)
+		else if (i >= 1569 && i <= 1604)
 		{
 			screen[i] = "If all numbers are the same, you win"[i - 1569];
 		}
-		else if (i >= 1634 && i <= 1680)
+		else if (i >= 1634 && i <= 1639)
 		{
 			screen[i] = "or die"[i - 1634];
 		}
@@ -577,7 +577,7 @@ int main()
 					return 0;
 				}
 				else if (menu == 2) {
-					continue;
+					break;
 				}
 				else {
 					continue;
